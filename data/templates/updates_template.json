@@ -1,0 +1,34 @@
+{
+    "date":"20xx-xx-xx",
+    "gkb_db_version":"0.0.0",
+    "content":{
+        "new_db":[
+            "HiChIP data is now on gkb, 999999999 genes are added",
+            "Can be empty",
+            "..."
+        ],
+        "data_update":{
+            "add":[
+                "lowchip is updated to versionxxx, 10000 loops added added",
+                "Can be empty",
+                "..."
+            ],
+            "change":[
+                "6666 nodes from abdDB are updated to new version",
+                "Can be empty",
+                "..."
+            ],
+            "delete":[
+                "22222 genes from cdeDB are deleted from gkb",
+                "Can be empty",
+                "..."
+            ]
+        },
+        "misc":[
+            "First in the list",
+            "Second in the list",
+            "Can be empty",
+            "..."
+        ]
+    }
+}

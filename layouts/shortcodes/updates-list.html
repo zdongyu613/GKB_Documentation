@@ -1,0 +1,47 @@
+<ul>
+{{ range sort $.Site.Data.database_updates "gkb_db_version" "desc"}}
+    <li style="padding-bottom: 40px; border-bottom: 1px rgb(184, 181, 181) solid;">
+        <h4><b>Version: {{ .gkb_db_version}} ({{ .date}})</b></h4>
+        {{ with .content.new_db }}
+            <h6>New Database:</h6>
+            <ul>
+                {{ range . }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        {{ end }}
+
+        {{ with .content.data_update }}
+            <h6>Data Update:</h6>
+            <ul>
+                {{ range .add }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            <br>
+            <ul>
+                {{ range .change }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            <br>
+            <ul>
+                {{ range .delete }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            
+        {{ end }}
+
+        {{ with .content.misc }}
+            <h6>Misc:</h6>
+            <ul>
+                {{ range . }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        {{ end }}
+    </li>
+
+ {{ end }}
+</ul>
