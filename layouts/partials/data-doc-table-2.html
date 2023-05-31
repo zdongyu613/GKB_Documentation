@@ -1,0 +1,89 @@
+<table>
+    <thead>Table 2. The summary of relationships in GenomicKB frontend</thead>
+    <tr>
+        <th>Relationship type</th>
+        <th>Relationship subtype</th>
+        <th>From</th>
+        <th>To</th>
+    </tr>
+<!--  Positional  -->
+    <tr>
+        <td rowspan="4">Positional</td>
+        <td>Overlap (overlap)</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+    <tr>
+        <td>Locate in (locate_in)</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+    <tr>
+        <td>Upstream</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+    <tr>
+        <td>Downstream</td>
+        <td>All entities that have a location property</td>
+        <td>All entities that have a location property</td>
+    </tr>
+<!--  Expression  -->
+    <tr>
+        <td rowspan="5">Expression</td>
+        <td>Express into (express_into)</td>
+        <td>Genes</td>
+        <td>Transcriptional factors</td>
+    </tr>
+    <tr>
+        <td>Express in (express_in)</td>
+        <td>Genes</td>
+        <td>Tissue and cell lines</td>
+    </tr>
+    <tr>
+        <td>Transcribe (transcribe_into)</td>
+        <td>Genes</td>
+        <td>Transcripts</td>
+    </tr>
+    <tr>
+        <td>Translate (translate_into)</td>
+        <td>Transcripts</td>
+        <td>Proteins</td>
+    </tr>
+    <tr>
+        <td>Include</td>
+        <td>Transcripts</td>
+        <td>Exons</td>
+    </tr>
+<!--  Regulatory  -->
+    <tr>
+        <td rowspan="4">Regulatory</td>
+        <td rowspan="2">Regulate</td>
+        <td>Genes</td>
+        <td>Genes</td>
+    </tr>
+    <tr>
+        <td>Enhancers</td>
+        <td>Genes</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Expression QTLs (correlate_with)</td>
+        <td>Variants</td>
+        <td>Genes</td>
+    </tr>
+    <tr>
+        <td>Variants</td>
+        <td>Ontologies</td>
+    </tr>
+<!--  Annotation  -->
+    <tr>
+        <td rowspan="2">Annotation</td>
+        <td rowspan="2">Belong to</td>
+        <td>Genes</td>
+        <td>Ontologies</td>
+    </tr>
+    <tr>
+        <td>Non coding RNA</td>
+        <td>Ontologies</td>
+    </tr>
+</table>
