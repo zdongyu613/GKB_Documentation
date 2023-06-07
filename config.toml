@@ -3,5 +3,8 @@ languageCode = 'en-us'
 title = 'GKB Documentation'
 theme = 'hugo-theme-relearn'
 
+[params]
+collapsibleMenu = true
+
 [outputs]
 home = [ "HTML", "RSS", "SEARCH"]
