@@ -6,7 +6,7 @@ draft: false
 #### Download the entire database of GenomicKB
 The database of GenomicKB is driven by Neo4j graph database. If you want to have a copy of the database, here we provide the download of the dumps of GenomicKB database:
 {{% expand title="Download List" %}}
-[db version: 0.0.0{{% icon icon="download" %}}]()
+[Download: GKB DB version: 0.0.0{{% icon icon="download" %}}]()
 {{% /expand %}}
 
 
