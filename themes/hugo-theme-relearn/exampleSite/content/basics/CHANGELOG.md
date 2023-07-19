@@ -1,5 +1,66 @@
 # Changelog
 
+## 5.17.1 (2023-06-22)
+
+### Enhancements
+
+- [**feature**][**change**] highlight: make copy to clipboard appear on hover [#574](https://github.com/McShelby/hugo-theme-relearn/issues/574)
+
+---
+
+## 5.17.0 (2023-06-22)
+
+### Enhancements
+
+- [**feature**] highlight: add configurable line breaks [#169](https://github.com/McShelby/hugo-theme-relearn/issues/169)
+
+### Fixes
+
+- [**bug**] theme: support Hugo 0.114.0 [#573](https://github.com/McShelby/hugo-theme-relearn/issues/573)
+- [**bug**] taxonomy: fix number tags [#570](https://github.com/McShelby/hugo-theme-relearn/issues/570)
+- [**bug**] highlight: improve copy to clipboard [#569](https://github.com/McShelby/hugo-theme-relearn/issues/569)
+
+---
+
+## 5.16.2 (2023-06-10)
+
+### Enhancements
+
+- [**feature**] theme: revamp 404 page [#566](https://github.com/McShelby/hugo-theme-relearn/issues/566)
+
+---
+
+## 5.16.1 (2023-06-09)
+
+### Enhancements
+
+- [**feature**] theme: add deprecation warnings [#565](https://github.com/McShelby/hugo-theme-relearn/issues/565)
+
+### Fixes
+
+- [**bug**] mermaid: allow for YAML frontmatter inside of graph [#564](https://github.com/McShelby/hugo-theme-relearn/issues/564)
+- [**bug**] alias: fix redirect URLs in case of empty BaseURL [#562](https://github.com/McShelby/hugo-theme-relearn/issues/562)
+
+---
+
+## 5.16.0 (2023-06-08)
+
+### Enhancements
+
+- [**feature**] tabs: add title and icon option [#552](https://github.com/McShelby/hugo-theme-relearn/issues/552)
+- [**feature**] shortcodes: add style option to mimic code box color scheme [#551](https://github.com/McShelby/hugo-theme-relearn/issues/551)
+- [**feature**] tabs: support color options [#550](https://github.com/McShelby/hugo-theme-relearn/issues/550)
+- [**feature**] favicon: add light & dark option for OS's prefered color scheme [#549](https://github.com/McShelby/hugo-theme-relearn/issues/549)
+
+### Fixes
+
+- [**bug**] icon: remove whitespace on start [#560](https://github.com/McShelby/hugo-theme-relearn/issues/560)
+- [**bug**] shortcodes: avoid superflous margin at start and end of content [#558](https://github.com/McShelby/hugo-theme-relearn/issues/558)
+- [**bug**] expand: fix html encoding of finishing content tag [#557](https://github.com/McShelby/hugo-theme-relearn/issues/557)
+- [**bug**] icon: fix ouput "raw HTML omitted" with goldmark config unsafe=false [#555](https://github.com/McShelby/hugo-theme-relearn/issues/555)
+
+---
+
 ## 5.15.2 (2023-05-29)
 
 ### Enhancements

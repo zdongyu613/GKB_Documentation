@@ -9,7 +9,8 @@ The database of GenomicKB is driven by Neo4j graph database. If you want to have
 [Download: GKB DB version: 0.0.0{{% icon icon="download" %}}]()
 {{% /expand %}}
 
-
+{{< tabs >}}
+{{% tab title="neo4j"%}}
 #### Load the dump of the Neo4j database
 
 Use the following command to load the dump of database:
@@ -39,3 +40,6 @@ In Neo4j Desktop, add the dump file to the File section for the DBMS.
 From the File section, open the `...` drop-down menu and select `Create new DBMS from dump`.
 
 *For more details, please refer to [Neo4j documentation: Create a DBMS from a dump file](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/)*
+{{% /tab %}}
+
+{{< /tabs >}}
