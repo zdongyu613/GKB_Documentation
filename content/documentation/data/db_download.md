@@ -3,10 +3,15 @@ title: "Database Download"
 date: 2023-07-11T14:35:27-04:00
 draft: false
 ---
+
+{{% notice style="orange" title="Disclaimer" icon="download" %}}
+This is the disclaimer of db download
+{{% /notice %}}
+
 #### Download the entire database of GenomicKB
 The database of GenomicKB is driven by Neo4j graph database. If you want to have a copy of the database, here we provide the download of the dumps of GenomicKB database:
 {{% expand title="Download List" %}}
-[Download: GKB DB version: 0.0.0{{% icon icon="download" %}}]()
+[Download: GKB DB version: 0.0.0]()
 {{% /expand %}}
 
 {{< tabs >}}
