@@ -10,11 +10,14 @@ This is the disclaimer of db download
 
 #### Download the entire database of GenomicKB
 The database of GenomicKB is driven by Neo4j graph database. If you want to have a copy of the database, here we provide the download of the dumps of GenomicKB database:
-{{% expand title="Download List" %}}
-[Download: GKB DB version: 0.0.0]()
+{{% expand title="Download List" open="true" %}}
+| Database Version | Neo4j | Neptune | csv | meta data |
+| ---------------- | ----- | ------- | --- | --------- |
+| 0.0.0 | [neo4j dump file name]() | [neptune dump file name]() | [gkb_db_0.0.0.csv]() | [0.0.0_metadata]() |
+
 {{% /expand %}}
 
-{{< tabs >}}
+{{< tabs title="Usage Instructions">}}
 {{% tab title="neo4j"%}}
 #### Load the dump of the Neo4j database
 
@@ -45,6 +48,14 @@ In Neo4j Desktop, add the dump file to the File section for the DBMS.
 From the File section, open the `...` drop-down menu and select `Create new DBMS from dump`.
 
 *For more details, please refer to [Neo4j documentation: Create a DBMS from a dump file](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/)*
+{{% /tab %}}
+
+{{% tab title="neptune"%}}
+load dump to neptune
+{{% /tab %}}
+
+{{% tab title="csv"%}}
+csv file structure
 {{% /tab %}}
 
 {{< /tabs >}}
