@@ -1,0 +1,17 @@
+{
+    "date":"2023-Aug-01",
+    "gkb_db_version":"0.0.0",
+    "content":{
+        "new_db":[
+            "Add gene-phenotype relationships from ClinGen."
+        ],
+        "data_update":{
+            "change":[
+                "Add disease information from OMIM."
+            ],
+            "delete":[
+                "xxx enhancers from EnhancerAtlas are deleted due to a data correction"
+            ]
+        }
+    }
+}
