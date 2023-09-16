@@ -11,8 +11,8 @@ The GenomicKB data set is available for academic research use in applications, s
 #### Download the entire database of GenomicKB
 The database of GenomicKB is driven by Neo4j graph database. If you want to have a copy of the database, here we provide the download of the dumps of GenomicKB database:
 {{% expand title="Download List" open="true" %}}
-| Database Version | Meta data |
-| ---------------- | --------- |
+| Database Version | Neo4j |Meta data |
+| ---------------- | --------- | --------- |
 | 0.0.0 | [Neo4j License](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) | [0.0.0_Metadata]() |
 
 Note: Click on provided link to agree to the academic license. To proceed, please click on the "buy" button and complete the provided form. Upon submission of the form, the dump file will be automatically sent to you.
@@ -56,11 +56,11 @@ From the File section, open the `...` drop-down menu and select `Create new DBMS
 {{% /tab %}}
 
 {{% tab title="neptune"%}}
-load dump to neptune
+load dump to neptune coming soon ...
 {{% /tab %}}
 
 {{% tab title="csv"%}}
-csv file structure
+csv file structure coming soon ...
 {{% /tab %}}
 
 {{< /tabs >}}
