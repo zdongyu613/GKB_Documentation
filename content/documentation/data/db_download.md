@@ -5,21 +5,26 @@ draft: false
 ---
 
 {{% notice style="orange" title="Disclaimer" icon="download" %}}
-This is the disclaimer of db download
+The GenomicKB data set is available for academic research use in applications, services and other use cases. Please note, this license is for academic research applications **only** and is available via a non-commercial open source license. 
 {{% /notice %}}
 
 #### Download the entire database of GenomicKB
 The database of GenomicKB is driven by Neo4j graph database. If you want to have a copy of the database, here we provide the download of the dumps of GenomicKB database:
 {{% expand title="Download List" open="true" %}}
-| Database Version | Neo4j | Neptune | csv | meta data |
-| ---------------- | ----- | ------- | --- | --------- |
-| 0.0.0 | [neo4j dump file name]() | [neptune dump file name]() | [gkb_db_0.0.0.csv]() | [0.0.0_metadata]() |
+| Database Version | Meta data |
+| ---------------- | --------- |
+| 0.0.0 | [Neo4j License](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) | [0.0.0_Metadata]() |
+
+Note: Click on provided link to agree to the academic license. To proceed, please click on the "buy" button and complete the provided form. Upon submission of the form, the dump file will be automatically sent to you.
 
 {{% /expand %}}
 
 {{< tabs title="Usage Instructions">}}
 {{% tab title="neo4j"%}}
-#### Load the dump of the Neo4j database
+#### Neo4j Environment Settings
+Coming soon...
+
+#### Load the Dump of the Neo4j Database
 
 Use the following command to load the dump of database:
 ```
@@ -31,7 +36,7 @@ If not, you must **create a database** after the load operation completes.
 
 *For more details, please refer to [Neo4j documentation: Restore a database dump](https://neo4j.com/docs/operations-manual/current/backup-restore/restore-dump/)*
 
-#### Create a DBMS from a dump file
+#### Create a DBMS from a Dump File
 
 You can either create database against system database in the Neo4j browser, or use the Neo4j Desktop.
 
