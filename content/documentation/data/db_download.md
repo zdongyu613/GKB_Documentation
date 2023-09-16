@@ -15,7 +15,7 @@ The database of GenomicKB is driven by Neo4j graph database. If you want to have
 | ---------------- | --------- | --------- |
 | 0.0.0 | [Neo4j License](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) | [0.0.0_Metadata]() |
 
-Note: Click on provided link to agree to the academic license. To proceed, please click on the "buy" button and complete the provided form. Upon submission of the form, the dump file will be automatically sent to you.
+Note: Click on provided link to agree to the academic license. To proceed, please click on the "Buy" button and complete the provided form. Upon submission of the form, the dump file will be automatically sent to you.
 
 {{% /expand %}}
 
