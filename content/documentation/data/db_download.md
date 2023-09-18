@@ -80,8 +80,8 @@ For more details, please refer to [Neo4j documentation: Creat from dump](https:/
 ```
 ./bin/neo4j console
 ```
-2. Open the neo4j browser, by default the url should be http://localhost:7474/. If you’ve changed the port in configuration, replace 7474 with your configuration.
-3. Choose bolt:// instead of neo4j:// in the drop down menu, and type in localhost:7687. If you’ve changed the port in configuration, replace 7687 with your configuration.
+2. Open the neo4j browser, by default the url should be `http://localhost:7474/`. If you’ve changed the port in configuration, replace 7474 with your configuration.
+3. Choose `bolt://` instead of `neo4j://` in the drop down menu, and type in `localhost:7687`. If you’ve changed the port in configuration, replace 7687 with your configuration.
 4. If it’s the first time you open the neo4j browser, type in neo4j for both username and password. Neo4j browser will then ask you to change the password. Otherwise, please type in your own password.
 5. Click connect and you should be able to see nodes and edges on the left panel.
 6. Visit GenomicKB Data API Doc or Neo4j Cheat Sheet for detailed instructions on how to write a query. [Neo4j Cheat Sheet](https://neo4j.com/docs/cypher-cheat-sheet/4/neo4j-community/)
