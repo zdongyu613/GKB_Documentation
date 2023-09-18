@@ -5,7 +5,7 @@ draft: false
 ---
 
 {{% notice style="orange" title="Disclaimer" icon="download" %}}
-The dump of GenomicKB database is freely available for academic users by following the download link. Commercial/nonacademic users, please reach out to us by clicking 'contact' on the same download link.
+The dump of GenomicKB database is **freely** available for **academic users** by following the download link. **Commercial/nonacademic users**, please reach out to us by clicking 'contact' on the same download link.
 {{% /notice %}}
 
 The database is managed by FlintBox at the University of Michigan. **Please follow the instructions to download.**
