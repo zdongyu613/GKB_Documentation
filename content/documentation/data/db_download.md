@@ -80,7 +80,7 @@ Neo4j Browser1 Start neo4j from terminal with command:
 USE systemCREATE DATABASE <name>;
 ```
 For more details about the CREATE DATABASE command, please refer to [neo4j documentation](https://neo4j.com/docs/cypher-manual/4.4/administration/databases/)
-Neo4j DesktopIn Neo4j Desktop, add the dump file to the File section for the DBMS.From the File section, open the drop-down menu and select "Create new DBMS" from dump.
+Neo4j Desktop. In Neo4j Desktop, add the dump file to the File section for the DBMS. From the File section, open `...` the drop-down menu and select `Create new DBMS` from dump.
 For more details, please refer to [neo4j documentation](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/) 
 
 #### Test Dump Database
