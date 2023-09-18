@@ -16,7 +16,7 @@ The database is managed by FlintBox at the University of Michigan. **Please foll
 {{% expand title="Download List" open="true" %}}
 | Database Version | Database Dump |
 | ---------------- | --------- |
-| 1.0 | [Neo4j License](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) |
+| 1.0 | [GenomicKB 1.0 Data Dump](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) |
 
 
 {{% /expand %}}
