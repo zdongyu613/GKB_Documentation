@@ -14,9 +14,9 @@ The database is managed by FlintBox at the University of Michigan. **Please foll
 3. The GenomicKB team will review your form within 3 working days. If approved, a link for the dump of the database will be sent to your mailbox.
 
 {{% expand title="Download List" open="true" %}}
-| Database Version | Database Dump | Meta data |
-| ---------------- | --------- | --------- |
-| 0.0.0 | [Neo4j License](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) | [0.0.0_Metadata]() |
+| Database Version | Database Dump |
+| ---------------- | --------- |
+| 1.0 | [Neo4j License](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) |
 
 
 {{% /expand %}}
@@ -68,7 +68,8 @@ Neo4j Browser1 Start neo4j from terminal with command:
 2. Open the neo4j browser, by default the url should be http://localhost:7474/.
 3. Type in the following commands:
 ```
-USE systemCREATE DATABASE <name>;
+:USE system
+CREATE DATABASE <name>;
 ```
 For more details about the CREATE DATABASE command, please refer to [Neo4j documentation: Databases](https://neo4j.com/docs/cypher-manual/4.4/administration/databases/)
 Neo4j Desktop. In Neo4j Desktop, add the dump file to the File section for the DBMS. From the File section, open `...` the drop-down menu and select `Create new DBMS` from dump.
