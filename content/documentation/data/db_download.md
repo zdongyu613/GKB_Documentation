@@ -63,6 +63,7 @@ For more details, please refer to [Neo4j documentation: Restore-dump](https://ne
 You can either create a database against the system database in the neo4j browser, or use the Neo4j Desktop.
 
 **Neo4j Browser**
+
 1. Start neo4j from terminal with command: 
 ```
 ./bin/neo4j console
@@ -76,6 +77,7 @@ CREATE DATABASE <name>;
 For more details about the CREATE DATABASE command, please refer to [Neo4j documentation: Databases](https://neo4j.com/docs/cypher-manual/4.4/administration/databases/)
 
 **Neo4j Desktop**
+
 In Neo4j Desktop, add the dump file to the File section for the DBMS. From the File section, open `...` the drop-down menu and select `Create new DBMS` from dump.
 For more details, please refer to [Neo4j documentation: Creat from dump](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/).
 
