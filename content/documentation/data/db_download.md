@@ -49,7 +49,11 @@ If you are using an **enterprise edition**, you can have multiple databases. You
 ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<input a name for your database>
 ```
-Ideally, you’ll see this message if the dump file is successfully loaded: Done: `<some number> files`, `<some number> GiB processed`. To experiment with the dump database, see Test Dump Database section.
+Ideally, you’ll see this message if the dump file is successfully loaded: 
+```
+Done: <some number> files, <some number> GiB processed
+```
+To experiment with the dump database, see Test Dump Database section.
 
 **Notes:** If you are **replacing an existing database**, you should specify `--force`: 
 ```
