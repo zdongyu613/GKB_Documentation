@@ -43,11 +43,11 @@ If not, you must **create a database** after the load operation completes.
 
 Use the following command, replace “<…>” with your own content:
 
-1 Open your terminal and run: 
+1. Open your terminal and run: 
 ```
 cd <input the path to the neo4j server directory>
 ```
-2 Load dump file with the following command: If you are using a community edition, you could only run one database. Therefore, you have to run this command which overwrites your neo4j database:
+2. Load dump file with the following command: If you are using a community edition, you could only run one database. Therefore, you have to run this command which overwrites your neo4j database:
 ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=neo4j --force
 ```
@@ -63,9 +63,9 @@ Ideally, you’ll see this message if the dump file is successfully loaded:Done:
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<name of existing database> --force
 ```
 If not, you must create a database after the load operation completes. See instructions below.
-If you are using Neo4j v5, you have to migrate the dump database. Please refer to [neo4j documentation](https://neo4j.com/docs/upgrade-migration-guide/current/version-5/migration/) for more information.
+If you are using Neo4j v5, you have to migrate the dump database. Please refer to [Neo4j documentation: Migration](https://neo4j.com/docs/upgrade-migration-guide/current/version-5/migration/) for more information.
 
-For more details, please refer to [neo4j documentation](https://neo4j.com/docs/operations-manual/4.4/backup-restore/restore-dump/)
+For more details, please refer to [Neo4j documentation: Restore-dump](https://neo4j.com/docs/operations-manual/4.4/backup-restore/restore-dump/).
 
 #### Create a DBMS from a Dump File
 
@@ -74,14 +74,14 @@ Neo4j Browser1 Start neo4j from terminal with command:
 ```
 ./bin/neo4j console
 ```
-2 Open the neo4j browser, by default the url should be http://localhost:7474/.
-3 Type in the following commands:
+2. Open the neo4j browser, by default the url should be http://localhost:7474/.
+3. Type in the following commands:
 ```
 USE systemCREATE DATABASE <name>;
 ```
-For more details about the CREATE DATABASE command, please refer to [neo4j documentation](https://neo4j.com/docs/cypher-manual/4.4/administration/databases/)
+For more details about the CREATE DATABASE command, please refer to [Neo4j documentation: Databases](https://neo4j.com/docs/cypher-manual/4.4/administration/databases/)
 Neo4j Desktop. In Neo4j Desktop, add the dump file to the File section for the DBMS. From the File section, open `...` the drop-down menu and select `Create new DBMS` from dump.
-For more details, please refer to [neo4j documentation](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/) 
+For more details, please refer to [Neo4j documentation: Creat from dump](https://neo4j.com/docs/desktop-manual/current/operations/create-from-dump/).
 
 #### Test Dump Database
 
@@ -102,7 +102,7 @@ Open the neo4j browser, and type in the following commands:
 :USE system
 CREATE DATABASE [name];
 ```
-*For more details about the CREATE DATABASE command, please refer to [Neo4j documentation: Creating databases](https://neo4j.com/docs/cypher-manual/current/administration/databases/#administration-databases-create-database)*
+*For more details about the CREATE DATABASE command, please refer to [Neo4j documentation: Creating databases](https://neo4j.com/docs/cypher-manual/current/administration/databases/#administration-databases-create-database)*.
 
 ###### Neo4j Desktop
 In Neo4j Desktop, add the dump file to the File section for the DBMS.
