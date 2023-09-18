@@ -48,7 +48,9 @@ Use the following command, replace “<…>” with your own content:
 cd <input the path to the neo4j server directory>
 ```
 2 Load dump file with the following command: If you are using a community edition, you could only run one database. Therefore, you have to run this command which overwrites your neo4j database:
-```./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=neo4j --force```
+```
+./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=neo4j --force
+```
 
 If you are using an enterprise edition, you can have multiple databases. You can run this command:
 ```
