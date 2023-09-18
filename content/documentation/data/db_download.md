@@ -26,22 +26,13 @@ The database is managed by FlintBox at the University of Michigan. **Please foll
 #### Neo4j Environment Settings
 Before using the dump, you need to set up neo4j environment, which requires downloading the neo4j platform and java 11. Please skip this section if you’ve already had a neo4j server. 
 
-Neo4j Installation:Choose free Neo4j Community Server Edition 4.4 based on your own Operating System. Follow the instructions for community edition.[Link](https://neo4j.com/download-center/#community)
-Java 11 Installation:Scroll down to choose Java 11 and download the correct version based on your own Operating System. [Link](https://www.oracle.com/java/technologies/downloads/#java11)
+[Neo4j Installation](https://neo4j.com/download-center/#community): Choose free Neo4j Community Server Edition 4.4 based on your own Operating System. Follow the instructions for community edition.
+
+[Java 11 Installation](https://www.oracle.com/java/technologies/downloads/#java11): Scroll down to choose Java 11 and download the correct version based on your own Operating System.
 
 #### Load Neo4j Database Dump
 
-Use the following command to load the dump of database:
-```
-./neo4j-admin database load --from-path=/full-path/data/dumps <database> [—overwrite-destination[=true|false]]
-```
-If you are **replacing an existing database**, you should specify: `—overwrite-destination=true`
-
-If not, you must **create a database** after the load operation completes.
-
-*For more details, please refer to [Neo4j documentation: Restore a database dump](https://neo4j.com/docs/operations-manual/current/backup-restore/restore-dump/)*
-
-Use the following command, replace “<…>” with your own content:
+Use the following command, replace `<…>` with your own content:
 
 1. Open your terminal and run: 
 ```
