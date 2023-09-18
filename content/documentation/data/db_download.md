@@ -60,7 +60,7 @@ For more details, please refer to [Neo4j documentation: Restore-dump](https://ne
 
 #### Create a DBMS from a Dump File
 
-You can either create a database against the system database in the neo4j browser, or use the Neo4j Desktop.
+1. You can either create a database against the system database in the neo4j browser, or use the Neo4j Desktop.
 Neo4j Browser1 Start neo4j from terminal with command: 
 ```
 ./bin/neo4j console
