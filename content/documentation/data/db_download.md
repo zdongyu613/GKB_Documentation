@@ -14,9 +14,9 @@ The database is managed by FlintBox at the University of Michigan. **Please foll
 3. The GenomicKB team will review your form within 3 working days. If approved, a link for the dump of the database will be sent to your mailbox.
 
 {{% expand title="Download List" open="true" %}}
-| Database Version | Database Dump |
-| ---------------- | --------- |
-| 1.0 | [GenomicKB 1.0 Data Dump](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) |
+| Database Version | Database Dump | Meta Data |
+| ---------------- | --------- | --------- |
+| 1.0 | [GenomicKB 1.0 Data Dump](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) | [Meta Data CVS](https://www.dropbox.com/s/d06auq2otg45nsn/cell_merged_metadata.csv?dl=0) |
 
 
 {{% /expand %}}
