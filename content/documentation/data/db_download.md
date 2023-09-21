@@ -50,11 +50,7 @@ If you are using an **enterprise edition**:
 ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<input a name for your database>
 ```
-Attention: If you are **replacing an existing database**, you should specify `--force` at the end of the above command. 
-<!-- ```
-./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<name of existing database> --force
-``` -->
-Otherwise, you must **create a database** after the load operation completes. See **Create a DBMS from a Dump File** section.
+Attention: If you are **replacing an existing database**, you should specify `--force` at the end of the above command. Otherwise, you must **create a database** after the load operation completes. See **Create a DBMS from a Dump File** section.
 
 
 Ideally, you’ll see this message if the dump file is successfully loaded: 
