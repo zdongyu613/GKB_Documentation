@@ -44,16 +44,16 @@ If you are using a **community edition**:
 ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=neo4j --force
 ```
-**Attention:** Neo4j community edition only hosts one database. Running this command will **overwrite your previous neo4j database**.
+Attention: Neo4j community edition only hosts one database. Running this command will **overwrite your previous neo4j database**.
 
 If you are using an **enterprise edition**:
 ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<input a name for your database>
 ```
-**Attention:** If you are **replacing an existing database**, you should specify `--force`: 
-```
+Attention: If you are **replacing an existing database**, you should specify `--force` at the end of the above command. 
+<!-- ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<name of existing database> --force
-```
+``` -->
 Otherwise, you must **create a database** after the load operation completes. See **Create a DBMS from a Dump File** section.
 
 
