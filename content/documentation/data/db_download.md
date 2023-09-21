@@ -26,42 +26,45 @@ The database is managed by FlintBox at the University of Michigan. **Please foll
 #### Neo4j Environment Settings
 Before using the dump, you need to set up neo4j environment, which requires downloading the neo4j platform and java 11. Please skip this section if you’ve already had a neo4j server. 
 
-[Neo4j Installation](https://neo4j.com/download-center/#community): Choose **free Neo4j Community Server Edition 4.4** based on your own Operating System. Follow the instructions for community edition.
+[Neo4j Installation](https://neo4j.com/download-center/#community): Choose **free Neo4j Community Server Edition 4.4** based on your own Operating System. In the sections below, follow the instructions for community edition.
 
 [Java 11 Installation](https://www.oracle.com/java/technologies/downloads/#java11): Scroll down to choose **Java 11** and download the correct version based on your own Operating System.
 
 #### Load Neo4j Database Dump
 
-Use the following command, replace `<…>` with your own content:
+Once the environment is set up, follow the instructions below to load the dump of GenomicKB into your server, replace `<…>` with your own content:
 
-1. Open your terminal and run: 
+1. Open your terminal and run this command to go to the folder of neo4j server.: 
 ```
 cd <input the path to the neo4j server directory>
 ```
 2. Load dump file with the following command: 
 
-If you are using a **community edition**, you could **only run one database**. Therefore, you have to run this command which overwrites your neo4j database:
+If you are using a **community edition**:
 ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=neo4j --force
 ```
+**Attention:** Neo4j community edition only hosts one database. Running this command will **overwrite your previous neo4j database**.
 
-If you are using an **enterprise edition**, you can have multiple databases. You can run this command:
+If you are using an **enterprise edition**:
 ```
 ./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<input a name for your database>
 ```
+**Attention:** If you are **replacing an existing database**, you should specify `--force`: 
+```
+./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<name of existing database> --force
+```
+Otherwise, you must **create a database** after the load operation completes. See **Create a DBMS from a Dump File** section.
+
+
 Ideally, you’ll see this message if the dump file is successfully loaded: 
 ```
 Done: <some number> files, <some number> GiB processed
 ```
-To experiment with the dump database, see Test Dump Database section.
+To experiment with the dump database, see **Test Dump Database** section.
 
-**Notes:** If you are **replacing an existing database**, you should specify `--force`: 
-```
-./bin/neo4j-admin load --from=<input the path to the downloaded neo4j dump file> --database=<name of existing database> --force
-```
-If not, you must **create a database** after the load operation completes. See instructions in the next section.
-
-If you are using Neo4j v5, you have to migrate the dump database. Please refer to [Neo4j documentation: Migration](https://neo4j.com/docs/upgrade-migration-guide/current/version-5/migration/) for more information.
+Notes:
+If you are using **Neo4j v5**, you have to migrate the dump database. Please refer to [Neo4j documentation: Migration](https://neo4j.com/docs/upgrade-migration-guide/current/version-5/migration/) for more information.
 
 For more details, please refer to [Neo4j documentation: Restore-dump](https://neo4j.com/docs/operations-manual/4.4/backup-restore/restore-dump/).
 
