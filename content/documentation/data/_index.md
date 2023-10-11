@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
 title = "Data"
-weight = 2
+weight = 4
 +++
 
 {{% children sort="weight" %}}

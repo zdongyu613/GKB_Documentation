@@ -1,7 +1,7 @@
 +++
-archetype = "chapter"
+archetype = "default"
 title = "API"
-weight = 1
+weight = 2
 +++
 
 GenomicKB API will be launched soon...

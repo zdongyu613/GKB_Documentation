@@ -4,7 +4,7 @@ date: 2023-05-23T15:03:53-04:00
 draft: false
 archetype: 'default'
 alwaysopen: true
-weight: 1
+weight: 2
 ---
 
 ### About GenomicKB
