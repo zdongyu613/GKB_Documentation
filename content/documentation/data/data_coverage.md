@@ -5,4 +5,4 @@ draft: false
 ---
 
 ### Data Coverage
-{{< safe-table />}} 
+{{< safe-table />}}
