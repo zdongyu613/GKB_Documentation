@@ -11,7 +11,8 @@ This page serves as the documentation for GenomicKB, encompassing comprehensive 
 ---
 
 ###### For GenomicKB graphic search engine users
-To access our **GenomicKB GUI Search Engine** for data retrieval, please follow the [link to GenomicKB homepage](https://gkb.dcmb.med.umich.edu/). Additionally, for a detailed tutorial on utilizing our graphic search interface, kindly refer to this [video tutorial](https://www.youtube.com/watch?v=Cnl9RpUDpkQ) or [this tutorial article]( {{<relref "/documentation/tutorial">}} ).
+To access our **GenomicKB GUI Search Engine** for data retrieval, please follow the [link to GenomicKB homepage](https://gkb.dcmb.med.umich.edu/). Additionally, for a detailed tutorial on utilizing our graphic search interface, kindly refer to this [video tutorial](https://www.youtube.com/watch?v=Cnl9RpUDpkQ).
+ <!-- or [this tutorial article]( {{<relref "/documentation/tutorial">}} ). -->
 
 ---
 
