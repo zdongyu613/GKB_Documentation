@@ -1,0 +1,12 @@
+{
+    "date":"2022-8-30",
+    "gkb_db_version":"",
+    "content":{
+        "new_db":[
+            "CellPhoneDB is now on GenomicKB, ligand-receptor pair relationships are added"
+        ],
+        "misc":[
+            "Add cross-reference URL links to other databases (e.g., Ensembl, UniProt, dbSNP, etc.)."
+        ]
+    }
+}

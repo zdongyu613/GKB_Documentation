@@ -1,0 +1,11 @@
+{
+    "date":"2022-7-15",
+    "gkb_db_version":"",
+    "content":{
+        "data_update":{
+            "change":[
+                "Ontology data in GenomicKB are updated with the newest data from NCBO ontologies."
+            ]
+        }
+    }
+}

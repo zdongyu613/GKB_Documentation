@@ -1,0 +1,6 @@
+{
+    "date":"2023-3-10",
+    "content":[
+        "Fix the issue that \"Quick Add\" provides wrong edge recommendation for \"exon\" and \"protein\"."
+    ]
+}

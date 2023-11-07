@@ -6,4 +6,4 @@ archetype: 'default'
 weight: 1
 ---
 
-{{< updates-list >}}
+{{< db-updates-list >}}

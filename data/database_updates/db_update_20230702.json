@@ -1,0 +1,14 @@
+{
+    "date":"2023-7-02",
+    "gkb_db_version":"",
+    "content":{
+        "new_db":[
+            "Omnipath is now on GenomicKB, protein-protein interaction relationships are added"
+        ],
+        "data_update":{
+            "add":[
+                "More ligand-receptor pairs added from CellPhoneDB."
+            ]
+        }
+    }
+}

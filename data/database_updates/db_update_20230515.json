@@ -1,0 +1,14 @@
+{
+    "date":"2023-5-15",
+    "gkb_db_version":"",
+    "content":{
+        "new_db":[
+            "Add MONDO disease ontology."
+        ],
+        "data_update":{
+            "change":[
+                "Fix the issue that some enhancers have wrong coordinates after LiftOver."
+            ]
+        }
+    }
+}

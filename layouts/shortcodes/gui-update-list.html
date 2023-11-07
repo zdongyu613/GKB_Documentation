@@ -1,0 +1,14 @@
+<ul>
+    {{ range sort $.Site.Data.interaction_updates "date" "desc"}}
+        <li style="padding-bottom: 40px; border-bottom: 1px rgb(184, 181, 181) solid;">
+            <h4><b>{{ .date}}</b></h4>
+            {{ with .content }}
+                <ul>
+                    {{ range . }}
+                        <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+    {{ end }}
+</ul>
+    
