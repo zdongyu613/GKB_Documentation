@@ -17,7 +17,7 @@ The database is managed by FlintBox at the University of Michigan. **Please foll
 {{% expand title="Download List" open="true" %}}
 | Database Version | Database Dump | Meta Data |
 | ---------------- | --------- | --------- |
-| 1.0 | [GenomicKB 1.0 Data Dump](https://umich.flintbox.com/technologies/811eeb39-f581-4752-a319-7eed6beb0a8e) | [Meta Data table]({{< ref "documentation/data/data_coverage.md" >}}) |
+| 1.0 | [GenomicKB 1.0 Data Dump](https://available-inventions.umich.edu/product/genomickb-a-knowledgebase-for-the-human-genome) | [Meta Data table]({{< ref "documentation/data/data_coverage.md" >}}) |
 
 
 {{% /expand %}}
